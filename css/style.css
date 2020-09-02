@@ -33,7 +33,7 @@ header {
 }
 
 .navbar {
-    background-color: darkgray;
+    background-color: #b19cd9;
 }
 
 header h1,
@@ -46,6 +46,11 @@ header a,
     color: #707070;
     
     
+}
+
+header h1,
+header a {
+    color: #fff;
 }
 
 .contact {
@@ -94,7 +99,7 @@ span:hover {
 }
 
 span.name {
-    color: #ED5565;
+    color: #b19cd9;
 }
 
 span.m-left {
@@ -110,8 +115,8 @@ span.m-left {
 .text a {
     padding: 12px 25px;
     background-color: none;
-    border: 3px solid #ED5565;
-    color: #ED5565;
+    border: 3px solid #b19cd9;
+    color: #b19cd9;
     font-size: .8rem;
     letter-spacing: 2px;
     position: relative;
@@ -127,7 +132,7 @@ span.m-left {
 
 .text a::before {
     content: '';
-    background-color: #ED5565;
+    background-color: #b19cd9;
     position: absolute;
     left: 0;
     top: 0;
@@ -150,10 +155,10 @@ span.m-left {
 .about-category button {
     margin-left: 122%;
     text-transform: capitalize;
-    border: 3px solid #ED5565;
+    border: 3px solid #b19cd9;
     padding: 15px 30px;
     border-radius: 50px;
-    color: #ED5565;
+    color: #b19cd9;
     font-size: 1.1rem;
     letter-spacing: 1px;
     background-color: black;
@@ -164,7 +169,7 @@ span.m-left {
 }
 
 .about-category .active {
-    background-color: #ED5565;
+    background-color: #b19cd9;
     
     
    
@@ -229,108 +234,26 @@ width: 150px;
 margin-left: 5%;
 margin-bottom: 10%;
 text-transform: capitalize;
-border: 3px solid #ED5565;
+border: 3px solid #b19cd9;
 padding: 15px 30px;
 border-radius: 50px;
 color: #fff;
 font-size: 1.1rem;
 letter-spacing: 1px;
-background-color: #ED5565;
+background-color: #b19cd9;
 outline: none;
 }
 
-
-
-
-
-
-/* .skills {
-    height: 100vh;
-   
-}
-
-.skills h1,
-.contact h1 {
-    text-align: right;
-    font-size: 10rem;
-    opacity: .1;
-    margin-bottom: 300px;
-}
-
-.skills-info {
-    font-size: 1.4rem;
-    color: #bebebe;
-    max-width: 800px;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    margin-bottom: 100px;
-}
-
-
-.html {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-div[class^='tag-'] {
-    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%);
-    width: 120px;
-    height: 30px;
-    background-color: skyblue;
-    margin-right: 30px;
-}
-
-div[class^='tag-'] p {
-    color: #fff;
-    text-align: left;
-    padding-left: 10px;
-    font-size: 1.1rem;
-    padding-top: 3px;
-}
-
-.progressbar {
-    position: relative;
-    width: 600px;
-    height: 20px;
-    border: 2px solid skyblue;
-    border-radius: 20px;
-    margin-top: 7px;
-}
-
-div[class^='bar-'] {
-    position: absolute;
-    background-color: skyblue;
-    height: 10px;
-    border-radius: 20px;
-    margin: 2.7px;
-}
-
-.bar-html,
-.bar-css,
-.bar-javascript,
-.bar-react {
-    width: calc(0 -6px);
-} */
-
-
-/* .container {
-    margin-bottom: 300px;
-} */
 
 .work-category button {
     
     
     margin-left: 30%;
     text-transform: capitalize;
-    border: 3px solid #ED5565;
+    border: 3px solid #b19cd9;
     padding: 15px 30px;
     border-radius: 50px;
-    color: #ED5565;
+    color: #b19cd9;
     font-size: 1.1rem;
     letter-spacing: 1px;
     background-color: black;
@@ -358,7 +281,7 @@ div[class^='category-'] {
 
 
 .work-category .active {
-    background-color: #ED5565;
+    background-color: #b19cd9;
     
     
    
@@ -458,19 +381,20 @@ form textarea {
 
 form input:last-child {
     width: 150px;
-    background-color: #ED5565;
+    background-color: #b19cd9;
     border: none;
     cursor: pointer;
 }
 
 footer hr {
-    border: 2px solid #707070;
+    border: 2px solid #fff;
     margin-top: 80px;
 }
 
 footer p {
     text-align: center;
-    color: #707070;
+    color: #fff;
+    background-color: #b19cd9;
     font-size: 1.2rem;
     padding: 30px 0;
 }
