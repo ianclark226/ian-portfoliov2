@@ -140,7 +140,7 @@ span.m-left {
 }
 
 .about-category button {
-    margin-left: 30%;
+    margin-left: 122%;
     text-transform: capitalize;
     border: 3px solid #ED5565;
     padding: 15px 30px;
@@ -183,7 +183,7 @@ span.m-left {
     z-index: -1;
 }
 
-.general {
+.general  {
     margin-right: 38%;
     margin-top: 300px;
     height: 200px;
@@ -210,6 +210,29 @@ span.m-left {
     transform: translateX(calc(-100% + 100px));
    
 }
+
+.about-category {
+    width: 300px;
+}
+
+.edu-category .active {
+position: absolute;
+width: 150px;
+margin-left: 5%;
+margin-bottom: 10%;
+text-transform: capitalize;
+border: 3px solid #ED5565;
+padding: 15px 30px;
+border-radius: 50px;
+color: #fff;
+font-size: 1.1rem;
+letter-spacing: 1px;
+background-color: #ED5565;
+outline: none;
+}
+
+
+
 
 
 
@@ -443,3 +466,7 @@ footer p {
     font-size: 1.2rem;
     padding: 30px 0;
 }
+
+
+
+ 
