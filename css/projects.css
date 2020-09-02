@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
 }
 
 body {
@@ -12,7 +14,7 @@ header {
     position: relative;
     top: 40px;
     left: 15%;
-    background-color: #bebebe;
+    background-color: #b19cd9;
     height: 750px;
     width: 1000px;
     border-radius: 5px;
@@ -28,7 +30,7 @@ header {
     position: relative;
     top: 10%;
     left: 15%;
-    background-color: darkgrey;
+    background-color: #b19cd9;
     color:white;
     height: 150px;
     width: 1000px;
@@ -69,4 +71,9 @@ header .tech-container {
     position: absolute;
     cursor: pointer;
     margin-top: 30px;
+}
+
+h2 p h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
 }
