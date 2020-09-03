@@ -73,7 +73,17 @@ header .tech-container {
     margin-top: 30px;
 }
 
-h2 p h1 {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
+header span input[type="button"]{
+    width: 150px;
+    height: 40px;
+    background: purple;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px #000;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 350px;
+    margin-left: -500px;
 }
